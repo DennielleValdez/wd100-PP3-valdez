@@ -1,0 +1,389 @@
+*{
+    font-style: normal;
+    font-family: "Archivo", sans-serif;
+}
+
+html body{
+    background-color: black;
+    color: #fff;
+    /* font-family: "Michroma"; */
+    /* font-weight: bold; */
+}
+/* LOGO */
+
+.logo-container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo-row{
+    text-align: center;
+}
+
+
+/* NAVIGATION BAR */
+
+.nav-container{
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+.navbar{
+    background-color: black;
+    padding-right: 100px;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.navbar .menu-item{ 
+    margin-left: 40px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.menu-item li{
+    margin: auto;
+}
+
+a{
+    color:#fff;
+    font-weight: bold;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.navbar-menu i{
+    font-size: 20px;
+} 
+.navbar-items .btn{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-items input{
+    height: 25px;
+    width: 300px;
+}
+
+.navbar-items a{
+    font-size: 12px;
+    text-align: center;
+}
+.navbar-items i{
+    font-size: 20px;
+}
+
+/* NAV MENU ANIMATION */
+
+/* .navbar-menu .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+.navbar-menu a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: rgb(9 199 239);
+    color: black;
+} */
+
+/* BANNER */
+
+.banner{
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.banner-text h1{
+    font-size: 90px;
+    text-shadow: 
+    -4px -4px 0 #000,  
+    4px -4px 0 #000,
+    -4px  4px 0 #000,
+    4px  4px 0 #000;
+}
+
+.banner-text h2{
+    font-size: 50px;
+    text-shadow:
+    -4px -4px 0 #000,  
+    4px -4px 0 #000,
+    -4px  4px 0 #000,
+    4px  4px 0 #000;
+}
+
+.banner-text p{
+    width: 1200px;
+    font-size: 20px;
+    margin: auto;
+    text-shadow:
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+/* .banner source{
+    width:100%;
+} */
+
+.shopnow-btn button{
+    border-style: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(9 199 239), #8a2be2);
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 20px  rgb(9 199 239);
+    cursor: pointer;
+    transform: 0.3s ease;
+}
+
+.shopnow-btn i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.shopnow-btn:hover {
+    color: #8a2be2;
+    transform: scale(1.1);
+}
+
+
+/* CUSTOMER SERVICE */
+
+.customer-service{
+    background-color:  rgb(0 0 0 / 91%);
+    padding: 50px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.customer-service h3{
+    font-size: 23px;
+}
+
+.customer-service p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: normal; 
+}
+
+.customer-service i{
+    font-size: 30px;
+    color: #fff;
+}
+
+/* BRANDS*/
+
+.brand-container{
+    margin: auto;
+    width: 1200px;
+}
+
+.brandText{
+    text-align: center;
+}
+
+.brandText h1{
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+
+.card{
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(18, 179, 211, 0.918), #e22be204);
+    color: #fff;
+    border-radius: 50px;
+    border-style: none;
+}
+.card img{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.card-body button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px 20px;
+    background: linear-gradient(to right, rgb(9 199 239), #8a2be2);
+    box-shadow: 1px 1px 10px  rgb(9 199 239);
+}
+
+.card-body button:hover{
+    color: black;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.card h1{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-size: 70px;
+    
+}
+
+.card p{
+    margin-top: 10px;
+}
+
+.card-body a{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* BEST SELLERS */
+
+.bestSeller-container{
+    margin: auto;
+    width: 1600px;
+}
+
+.bs-card1{
+    text-align: center;
+    height:500px;
+    margin-top: 30px;
+}
+
+.bscard-body{
+    text-align: center;
+}
+
+.bscard-body button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(9 199 239), #8a2be2);
+    box-shadow: 1px 1px 10px  rgb(9 199 239);
+}
+
+.bscard-body h3{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bscard-body p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* ABOUT US */
+
+.aboutUs-container{
+    margin: auto;
+    width: 1000px;
+    
+}
+
+.aboutUs-container p{
+    font-size: 23px;
+    padding: 10px;
+}
+
+/* NEWS */
+
+.news-container{
+    margin: auto;
+    width: 1300px;
+}
+
+.news-text p{
+    font-size: 14px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.signUp-form button{
+    width: 100px;
+}
+
+.signUp-form{
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px 0px;
+    margin-left: 0px;
+    background: linear-gradient(to right, rgba(9, 201, 239, 0.466), #e22be270);
+}
+
+/* FOOTER  */
+.footer-container{
+    background-color: black;
+    width: 1800px;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-footer-container{
+    width: 1800px;
+    margin:auto;
+    justify-content: center;
+}
+
+.main-footer-container h3{
+    font-size: 20px;
+}
+
+.main-footer-container p{
+    font-size: 15px;
+}
+
+.list li{
+    font-size: 15px;
+}
+
+.connect-text h3{
+    font-size: 20px;
+}
+
+.footer-container p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer-logo img{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.socials i{
+    font-size: 35px;
+    color:  rgb(9 199 239);
+}
+
+.details{
+    padding-left: 100px;
+}
+.about{
+    padding-left: 100px;
+}

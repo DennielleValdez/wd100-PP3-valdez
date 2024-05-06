@@ -1,0 +1,111 @@
+*{
+    font-style: normal;
+    font-family: "Archivo", sans-serif;
+}
+
+html body{
+    /* background-color: rgb(0 0 0 / 91%); */
+    background-image: url(../img/cartbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    /* font-family: "Michroma"; */
+    font-weight: bold;
+}
+/* LOGO */
+
+.logo-container{
+    margin-top: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo-row{
+    text-align: center;
+}
+
+/* .searchbar{
+    display: flex;
+    align-items: end;
+}
+
+.searchbar input{
+    width: 100px;
+    height: 50px;
+} */
+
+/* NAVIGATION BAR */
+
+.nav-container{
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+.navbar{
+    background-color: black;
+    padding-right: 100px;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+a{
+    color:#fff;
+    font-weight: bold;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.navbar-items .btn{
+    /* color:rgb(9 199 239);
+    border-color: rgb(9 199 239); */
+    height: 35px;
+    font-size: 10px;
+}
+
+.navbar-items input{
+    /* border-color: rgb(9 199 239); */
+    height: 35px;
+}
+
+.navbar-items a{
+    /* color:rgb(9 199 239); */
+    font-size: 18px;
+}
+
+/* NAV MENU ANIMATION */
+
+/* .navbar-menu .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+.navbar-menu a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: rgb(9 199 239);
+    color: black;
+} */
+
+/* BANNER */
+
+/* CART CONTAINER */
+
+.addToCart-container{
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.addToCart-container th{
+    text-align: center;
+}
